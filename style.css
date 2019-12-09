@@ -1,0 +1,24 @@
+.heading {
+  text-align: center;
+}
+
+.map {
+  text-align: center;
+}
+
+#legend svg {
+  width: auto;
+  height: 50px;
+  transform: translate(860px, -5px);
+}
+
+#tooltip {
+  position: absolute;
+  background-color: hsl(61, 41%, 66%);
+  border: 1px solid black;
+  box-shadow: 2px 3px 4.5px;
+  text-align: center;
+  border-radius: 5px;
+  color: #000;
+  font-weight: 500;
+}
